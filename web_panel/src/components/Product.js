@@ -28,7 +28,7 @@ const Products = (props) => {
 			        </div>
 			        <footer>
 			          <h5 className="product-name">{title}</h5>
-			          <span className="product-price">${price}</span>
+					  <span className="product-price">₹{price ?? 500}</span>
 			        </footer>
 			      </article>
 			</>
